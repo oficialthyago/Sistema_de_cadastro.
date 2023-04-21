@@ -67,6 +67,13 @@ public class FichaDeCadastro {
         System.out.println("Digite sua altura: ");
         String sexo = leitor.nextLine(); // Nextline ( responsavel por ler variaveis do tipo String) 
         }while(sexo != "F" && sexo !="M");
+
+        System.out.println("\nNome  : "+ nome);
+        System.out.println("Idade : "+ idade );
+        System.out.println("Altura: "+ altura);
+        System.out.println("Peso  : "+ peso  );
+        System.out.println("Sexo  : "+ sexo  );
+        
      
     }
 }
